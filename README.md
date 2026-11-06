@@ -1,0 +1,11 @@
+# My IMP extension
+Simple imperative language, also know as IMP, is a Turing complete imperative language that uses states to kepp track of data. It has basic operations for integers, booleans and updating the state. In this project I will be extending IMP in the following ways (Stars indicate lower priority):
+- Typing; I will implement a basic typing system similar to the ones covered in lectures.
+- List; I will add built in functionality for lists, whcih will be able to be assigned to variables.
+- Functions; I will add functions which can be passed as arguments and assigned to variables. (Essentially implementing a lambda calculus like system inside IMP).
+- CoRoutines; I will add CoRoutines which can be passed as arguments and assigned to variables.
+
+In addition if I have time I would like to expand the number of arithmatic operators and extend the language to include arithmatic for rational numbers.
+
+* Below are citations relevant for the project (more will be gathered):
+@article{10.1145/1462166.1462167, author = {Moura, Ana L{\'u}cia De and Ierusalimschy, Roberto}, title = {Revisiting coroutines}, year = {2009}, issue_date = {February 2009}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, volume = {31}, number = {2}, issn = {0164-0925}, url = {https://doi.org/10.1145/1462166.1462167}, doi = {10.1145/1462166.1462167}, abstract = {This article advocates the revival of coroutines as a convenient general control abstraction. After proposing a new classification of coroutines, we introduce the concept of full asymmetric coroutines and provide a precise definition for it through an operational semantics. We then demonstrate that full coroutines have an expressive power equivalent to one-shot continuations and one-shot delimited continuations. We also show that full asymmetric coroutines and one-shot delimited continuations have many similarities, and therefore present comparable benefits. Nevertheless, coroutines are easier implemented and understood, especially in the realm of procedural languages.}, journal = {ACM Trans. Program. Lang. Syst.}, month = feb, articleno = {6}, numpages = {31}, keywords = {Continuations, generators, multitasking} }
